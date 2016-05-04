@@ -1,0 +1,56 @@
+//------------------------------------//
+//  $MEDIA
+//------------------------------------//
+
+// Base Object
+.media { @include clearfix; }
+
+.media__item {
+  float: left;
+  @include rem(margin-right, $half-spacing-unit, $base-font-size--mobile);
+
+  img,
+  video,
+  iframe,
+  object { display: block; }
+}
+
+.media__body,
+.media__body > :last-child { margin-bottom: 0; }
+
+
+//
+// EXTENSIONS
+//
+
+// FLIP
+.media--flip > .media__item {
+  float: right;
+  margin-right: 0;
+  @include rem(margin-left, $half-spacing-unit, $base-font-size--mobile);
+}
+
+// NOWRAP
+.media--nowrap > .media__body { overflow: hidden; }
+
+// VALIGN
+.media--valign {
+  display: table;
+  width: 100%;
+
+  .media__item,
+  .media__body {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .media__item {
+    @include rem(padding-right, $half-spacing-unit, $base-font-size--mobile);
+
+    img {
+      width: auto !important;
+      max-width: none !important;
+    }
+  }
+}
