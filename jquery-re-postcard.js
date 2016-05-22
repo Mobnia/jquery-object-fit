@@ -1,10 +1,11 @@
 (function ($) {
     $.fn.repostcard = function (options) {
-        // console.log(options);
-        var img = $(options.img).each(function (i, elem) {
+        console.log($(this));
+        var img = $(this).each(function (i, elem) {
             var css = {};
             var imger = $(elem);
-            css.background = "url(" + imger.attr("src") + ") no-repeat " + options.horizontal + " " + options.vertical;
+            console.log(imger.attr("src"));
+            css.background = "url(" + imger.attr("src") + ") no-repeat ";
             if(options.horizontal){
                 css.background += " "+ options.horizontal;
             }
@@ -26,7 +27,7 @@
             $.each(css, function (index, value) {
                 replacement_style[index] = value;
             });
-            return this.filter(elem).replaceWith(
+            return $(this).filter(elem).replaceWith(
                 $("" + options.replacement_element + "")
                     .css(replacement_style)
                     .addClass(options.replacement_class));

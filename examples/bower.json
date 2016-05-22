@@ -22,6 +22,6 @@
   ],
   "dependencies": {
     "jquery": "~2.2.3",
-    "spacebase": "~2.0.1"
+    "skeleton": "~2.0.4"
   }
 }

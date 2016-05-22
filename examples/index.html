@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>re-postcard</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– --><!--
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="vendor/skeleton/css/normalize.css">
+    <link rel="stylesheet" href="vendor/skeleton/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="vendor/skeleton/images/favicon.png">
+    <!-- jQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script language="JavaScript" type="application/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+    <script language="JavaScript" type="application/javascript" src="../jquery-re-postcard.js"></script>
+</head>
+<body>
+
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <!-- header-->
+    <div class="row">
+        <div class="twelve columns">
+            <h1>Re-Postcard</h1>
+
+            <p>A small example</p>
+        </div>
+    </div>
+    <!--columns-->
+    <div class="row">
+        <div class="four columns card"><!--http://ichef.bbci.co.uk/wwhp/304/ibroadcast/images/live/p0/3t/17/p03t17w1.jpg-->
+            <div class="card_image"><img src="http://localhost/re-postcard/examples/assets/img/_1410308110.jpg" width="100%"></div>
+            <div class="card_caption">HTML Scaling</div>
+        </div>
+        <div class="four columns card">
+            <div class="card_image responsive_image"><img src="http://localhost/re-postcard/examples/assets/img/_1410308110.jpg"></div>
+            <div class="card_caption">Buck</div>
+        </div>
+        <div class="four columns card">
+            <div class="card_image repost_image"><img src="http://localhost/re-postcard/examples/assets/img/_1410308110.jpg"></div>
+            <div class="card_caption">Guy with metal hand</div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script type="application/javascript" language="JavaScript">
+  $('.repost_image img').repostcard({
+     /* img: '.repost_image img',*/
+      replacement_element: '<div />',
+      /*replacement_class: 'columns twelve',*/
+      horizontal: '50%',
+      vertical: '50%',
+      size: 'cover',
+      width: '100%',
+      height: '196px'
+  })
+</script>
+</body>
+</html>
