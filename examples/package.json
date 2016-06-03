@@ -17,9 +17,9 @@
     "re-postcard"
   ],
   "bugs": {
-    "url": "https://github.com/Mobnia/jquery-re-postcard/issues"
+    "url": "https://github.com/Mobnia/jquery-object-fit"
   },
-  "homepage": "https://github.com/Mobnia/jquery-re-postcard#readme",
+  "homepage": "https://github.com/Mobnia/jquery-object-fit#readme",
   "devDependencies": {
     "bower": "^1.7.9"
   }
