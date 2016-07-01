@@ -18,7 +18,7 @@ Work-arounds to provide similar benefits to other browsers many times utilizing 
 
 Jquery-Object-fit achieves the object-fit benefits without sacrificing the separation between content and presentation.
 
-[clone repo and launch the example project for a small demo.](https://github.com/Mobnia/jquery-object-fit.git) 
+[See example usage of jQuery object here](https://cdn.rawgit.com/Mobnia/jquery-object-fit/master/examples/index.html) 
 
 ## Main Benefits
 - apply to multiple images at the same time
