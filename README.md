@@ -31,7 +31,7 @@ Jquery-Object-fit achieves the object-fit benefits without sacrificing the separ
 ```js
 // with jQuery
  $('.repost_image img').jqueryObjectFit({
-      replacement_element: "<div />",
+      replacement_element: "<div>",
       replacement_class: 'columns twelve',
       horizontal: '50%',
       vertical: '0%',
@@ -58,7 +58,7 @@ You can run `jqueryObjectFit()` on the same elements more than once without issu
 
 possible options properties                         | description
 :---                              | :---
-**`replacement element`**                      | Type: `string` *required* <br> HTML element that will replace the image element in the DOM. For example: ` <div />`.
+**`replacement element`**                      | Type: `string` *required* <br> HTML element that will replace the image element in the DOM. For example: ` <div>`.
 **`width`**                      | Type: `string` *required* <br> Width of the replacement element.
 **`height`**                      | Type: `string` *required* <br> Height of the replacement element.
 **`replacement_class`**                        | Type: `string` *optional* <br> Layout or presentational classed to be applied on the replacement element.
