@@ -1,8 +1,8 @@
 {
-  "name": "jqueryOjectFit",
+  "name": "jquery-object-fit",
   "version": "1.0.0",
   "description": "re-postcard",
-  "main": "index.html",
+  "main": "docs/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/Mobnia/jquery-object-fit#readme",
   "devDependencies": {
     "bower": "^1.7.9"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }

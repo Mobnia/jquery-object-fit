@@ -1,14 +1,14 @@
 {
-  "name": "re-postcard",
-  "description": "re-postcard",
-  "main": "index.html",
+  "name": "jquery-object-fit",
+  "description": "jquery-object-fit solves problems with displaying variable image dimensions in the browser.",
+  "main": "docs/index.html",
   "authors": [
     "fran@mobnia.com"
   ],
   "license": "MIT",
   "keywords": [
     "jquery",
-    "re-postcard"
+    "object-fit"
   ],
   "homepage": "https://github.com/Mobnia/jquery-re-postcard",
   "moduleType": [],
