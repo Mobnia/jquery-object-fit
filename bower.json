@@ -10,7 +10,7 @@
     "jquery",
     "object-fit"
   ],
-  "homepage": "https://github.com/Mobnia/jquery-re-postcard",
+  "homepage": "https://github.com/Mobnia/jquery-object-fit.git",
   "moduleType": [],
   "ignore": [
     "**/.*",
